@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class ControlDIYControlPad : Form
     {

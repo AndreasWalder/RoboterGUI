@@ -38,7 +38,7 @@ using System.Threading;
 using AForge.Imaging.ColorReduction;
 using AForge.Imaging.Filters;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class GCodeFromImage : Form
     {

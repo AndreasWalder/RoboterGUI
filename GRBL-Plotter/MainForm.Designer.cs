@@ -18,7 +18,7 @@
 */
 using System;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     partial class MainForm
     {
@@ -979,7 +979,7 @@ namespace GRBL_Plotter
             // btnStreamStop
             // 
             resources.ApplyResources(this.btnStreamStop, "btnStreamStop");
-            this.btnStreamStop.Image = global::GRBL_Plotter.Properties.Resources.btn_stop;
+            this.btnStreamStop.Image = global::RoboterGUI.Properties.Resources.btn_stop;
             this.btnStreamStop.Name = "btnStreamStop";
             this.toolTip1.SetToolTip(this.btnStreamStop, resources.GetString("btnStreamStop.ToolTip"));
             this.btnStreamStop.UseVisualStyleBackColor = true;
@@ -1040,7 +1040,7 @@ namespace GRBL_Plotter
             // btnStreamStart
             // 
             resources.ApplyResources(this.btnStreamStart, "btnStreamStart");
-            this.btnStreamStart.Image = global::GRBL_Plotter.Properties.Resources.btn_play;
+            this.btnStreamStart.Image = global::RoboterGUI.Properties.Resources.btn_play;
             this.btnStreamStart.Name = "btnStreamStart";
             this.toolTip1.SetToolTip(this.btnStreamStart, resources.GetString("btnStreamStart.ToolTip"));
             this.btnStreamStart.UseVisualStyleBackColor = true;
@@ -1552,7 +1552,7 @@ namespace GRBL_Plotter
             // 
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.BackgroundImage = global::GRBL_Plotter.Properties.Resources.Roboter;
+            this.pictureBox1.BackgroundImage = global::RoboterGUI.Properties.Resources.Roboter;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.ContextMenuStrip = this.cmsPictureBox;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Cross;
@@ -1728,9 +1728,9 @@ namespace GRBL_Plotter
             // cBSendJogStop
             // 
             resources.ApplyResources(this.cBSendJogStop, "cBSendJogStop");
-            this.cBSendJogStop.Checked = global::GRBL_Plotter.Properties.Settings.Default.ctrlSendStopJog;
+            this.cBSendJogStop.Checked = global::RoboterGUI.Properties.Settings.Default.ctrlSendStopJog;
             this.cBSendJogStop.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cBSendJogStop.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "ctrlSendStopJog", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cBSendJogStop.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "ctrlSendStopJog", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cBSendJogStop.Name = "cBSendJogStop";
             this.toolTip1.SetToolTip(this.cBSendJogStop, resources.GetString("cBSendJogStop.ToolTip"));
             this.cBSendJogStop.UseVisualStyleBackColor = true;

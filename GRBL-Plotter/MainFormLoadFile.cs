@@ -11,7 +11,7 @@ using System.IO;
 using System.Windows.Forms;
 using System.Threading;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class MainForm
     {

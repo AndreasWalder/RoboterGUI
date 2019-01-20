@@ -5,7 +5,7 @@
 using System;
 using SharpDX.DirectInput;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     class ControlGamePad
     {

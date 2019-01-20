@@ -1,4 +1,4 @@
-﻿namespace GRBL_Plotter
+﻿namespace RoboterGUI
 {
     partial class GCodeFromImage
     {
@@ -282,7 +282,7 @@
             // nUDReso
             // 
             resources.ApplyResources(this.nUDReso, "nUDReso");
-            this.nUDReso.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "importImageReso", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDReso.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "importImageReso", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDReso.DecimalPlaces = 2;
             this.nUDReso.Increment = new decimal(new int[] {
             1,
@@ -301,7 +301,7 @@
             65536});
             this.nUDReso.Name = "nUDReso";
             this.toolTip1.SetToolTip(this.nUDReso, resources.GetString("nUDReso.ToolTip"));
-            this.nUDReso.Value = global::GRBL_Plotter.Properties.Settings.Default.importImageReso;
+            this.nUDReso.Value = global::RoboterGUI.Properties.Settings.Default.importImageReso;
             this.nUDReso.ValueChanged += new System.EventHandler(this.applyColorCorrectionsEvent);
             // 
             // lblSizeResult
@@ -314,7 +314,7 @@
             // nUDHeight
             // 
             resources.ApplyResources(this.nUDHeight, "nUDHeight");
-            this.nUDHeight.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "importImageHeight", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDHeight.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "importImageHeight", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDHeight.DecimalPlaces = 1;
             this.nUDHeight.Increment = new decimal(new int[] {
             10,
@@ -333,13 +333,13 @@
             0});
             this.nUDHeight.Name = "nUDHeight";
             this.toolTip1.SetToolTip(this.nUDHeight, resources.GetString("nUDHeight.ToolTip"));
-            this.nUDHeight.Value = global::GRBL_Plotter.Properties.Settings.Default.importImageHeight;
+            this.nUDHeight.Value = global::RoboterGUI.Properties.Settings.Default.importImageHeight;
             this.nUDHeight.ValueChanged += new System.EventHandler(this.nUDWidthHeight_ValueChanged);
             // 
             // nUDWidth
             // 
             resources.ApplyResources(this.nUDWidth, "nUDWidth");
-            this.nUDWidth.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "importImageWidth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDWidth.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "importImageWidth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDWidth.DecimalPlaces = 1;
             this.nUDWidth.Increment = new decimal(new int[] {
             10,
@@ -358,7 +358,7 @@
             0});
             this.nUDWidth.Name = "nUDWidth";
             this.toolTip1.SetToolTip(this.nUDWidth, resources.GetString("nUDWidth.ToolTip"));
-            this.nUDWidth.Value = global::GRBL_Plotter.Properties.Settings.Default.importImageWidth;
+            this.nUDWidth.Value = global::RoboterGUI.Properties.Settings.Default.importImageWidth;
             this.nUDWidth.ValueChanged += new System.EventHandler(this.nUDWidthHeight_ValueChanged);
             // 
             // label4
@@ -382,9 +382,9 @@
             // cbLockRatio
             // 
             resources.ApplyResources(this.cbLockRatio, "cbLockRatio");
-            this.cbLockRatio.Checked = global::GRBL_Plotter.Properties.Settings.Default.importImageKeepRatio;
+            this.cbLockRatio.Checked = global::RoboterGUI.Properties.Settings.Default.importImageKeepRatio;
             this.cbLockRatio.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbLockRatio.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "importImageKeepRatio", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cbLockRatio.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "importImageKeepRatio", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cbLockRatio.Name = "cbLockRatio";
             this.toolTip1.SetToolTip(this.cbLockRatio, resources.GetString("cbLockRatio.ToolTip"));
             this.cbLockRatio.UseVisualStyleBackColor = true;
@@ -464,7 +464,7 @@
             // btnInvert
             // 
             resources.ApplyResources(this.btnInvert, "btnInvert");
-            this.btnInvert.BackgroundImage = global::GRBL_Plotter.Properties.Resources.inv2;
+            this.btnInvert.BackgroundImage = global::RoboterGUI.Properties.Resources.inv2;
             this.btnInvert.Name = "btnInvert";
             this.toolTip1.SetToolTip(this.btnInvert, resources.GetString("btnInvert.ToolTip"));
             this.btnInvert.UseVisualStyleBackColor = true;
@@ -473,7 +473,7 @@
             // btnHorizMirror
             // 
             resources.ApplyResources(this.btnHorizMirror, "btnHorizMirror");
-            this.btnHorizMirror.BackgroundImage = global::GRBL_Plotter.Properties.Resources.flip_horizontal;
+            this.btnHorizMirror.BackgroundImage = global::RoboterGUI.Properties.Resources.flip_horizontal;
             this.btnHorizMirror.Name = "btnHorizMirror";
             this.toolTip1.SetToolTip(this.btnHorizMirror, resources.GetString("btnHorizMirror.ToolTip"));
             this.btnHorizMirror.UseVisualStyleBackColor = true;
@@ -482,7 +482,7 @@
             // btnVertMirror
             // 
             resources.ApplyResources(this.btnVertMirror, "btnVertMirror");
-            this.btnVertMirror.BackgroundImage = global::GRBL_Plotter.Properties.Resources.flip_vertical;
+            this.btnVertMirror.BackgroundImage = global::RoboterGUI.Properties.Resources.flip_vertical;
             this.btnVertMirror.Name = "btnVertMirror";
             this.toolTip1.SetToolTip(this.btnVertMirror, resources.GetString("btnVertMirror.ToolTip"));
             this.btnVertMirror.UseVisualStyleBackColor = true;
@@ -491,7 +491,7 @@
             // btnRotateRight
             // 
             resources.ApplyResources(this.btnRotateRight, "btnRotateRight");
-            this.btnRotateRight.BackgroundImage = global::GRBL_Plotter.Properties.Resources.turn_r;
+            this.btnRotateRight.BackgroundImage = global::RoboterGUI.Properties.Resources.turn_r;
             this.btnRotateRight.Name = "btnRotateRight";
             this.toolTip1.SetToolTip(this.btnRotateRight, resources.GetString("btnRotateRight.ToolTip"));
             this.btnRotateRight.UseVisualStyleBackColor = true;
@@ -500,7 +500,7 @@
             // btnRotateLeft
             // 
             resources.ApplyResources(this.btnRotateLeft, "btnRotateLeft");
-            this.btnRotateLeft.BackgroundImage = global::GRBL_Plotter.Properties.Resources.turn_l;
+            this.btnRotateLeft.BackgroundImage = global::RoboterGUI.Properties.Resources.turn_l;
             this.btnRotateLeft.Name = "btnRotateLeft";
             this.toolTip1.SetToolTip(this.btnRotateLeft, resources.GetString("btnRotateLeft.ToolTip"));
             this.btnRotateLeft.UseVisualStyleBackColor = true;
@@ -575,7 +575,7 @@
             // 
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.ContextMenuStrip = this.contextMenuStrip1;
-            this.pictureBox1.Image = global::GRBL_Plotter.Properties.Resources.modell;
+            this.pictureBox1.Image = global::RoboterGUI.Properties.Resources.modell;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             this.toolTip1.SetToolTip(this.pictureBox1, resources.GetString("pictureBox1.ToolTip"));
@@ -817,8 +817,8 @@
             // cBImportGCTool
             // 
             resources.ApplyResources(this.cBImportGCTool, "cBImportGCTool");
-            this.cBImportGCTool.Checked = global::GRBL_Plotter.Properties.Settings.Default.importGCTool;
-            this.cBImportGCTool.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "importGCTool", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cBImportGCTool.Checked = global::RoboterGUI.Properties.Settings.Default.importGCTool;
+            this.cBImportGCTool.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "importGCTool", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cBImportGCTool.Name = "cBImportGCTool";
             this.toolTip1.SetToolTip(this.cBImportGCTool, resources.GetString("cBImportGCTool.ToolTip"));
             this.cBImportGCTool.UseVisualStyleBackColor = true;
@@ -826,8 +826,8 @@
             // cBToolChange
             // 
             resources.ApplyResources(this.cBToolChange, "cBToolChange");
-            this.cBToolChange.Checked = global::GRBL_Plotter.Properties.Settings.Default.ctrlToolChange;
-            this.cBToolChange.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "ctrlToolChange", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cBToolChange.Checked = global::RoboterGUI.Properties.Settings.Default.ctrlToolChange;
+            this.cBToolChange.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "ctrlToolChange", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cBToolChange.Name = "cBToolChange";
             this.toolTip1.SetToolTip(this.cBToolChange, resources.GetString("cBToolChange.ToolTip"));
             this.cBToolChange.UseVisualStyleBackColor = true;
@@ -871,7 +871,7 @@
             // nUDImportGCFeedXY
             // 
             resources.ApplyResources(this.nUDImportGCFeedXY, "nUDImportGCFeedXY");
-            this.nUDImportGCFeedXY.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "importGCXYFeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDImportGCFeedXY.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "importGCXYFeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDImportGCFeedXY.Increment = new decimal(new int[] {
             100,
             0,
@@ -889,13 +889,13 @@
             0});
             this.nUDImportGCFeedXY.Name = "nUDImportGCFeedXY";
             this.toolTip1.SetToolTip(this.nUDImportGCFeedXY, resources.GetString("nUDImportGCFeedXY.ToolTip"));
-            this.nUDImportGCFeedXY.Value = global::GRBL_Plotter.Properties.Settings.Default.importGCXYFeed;
+            this.nUDImportGCFeedXY.Value = global::RoboterGUI.Properties.Settings.Default.importGCXYFeed;
             // 
             // cBImportGCTTXYFeed
             // 
             resources.ApplyResources(this.cBImportGCTTXYFeed, "cBImportGCTTXYFeed");
-            this.cBImportGCTTXYFeed.Checked = global::GRBL_Plotter.Properties.Settings.Default.importGCTTXYFeed;
-            this.cBImportGCTTXYFeed.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "importGCTTXYFeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cBImportGCTTXYFeed.Checked = global::RoboterGUI.Properties.Settings.Default.importGCTTXYFeed;
+            this.cBImportGCTTXYFeed.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "importGCTTXYFeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cBImportGCTTXYFeed.Name = "cBImportGCTTXYFeed";
             this.toolTip1.SetToolTip(this.cBImportGCTTXYFeed, resources.GetString("cBImportGCTTXYFeed.ToolTip"));
             this.cBImportGCTTXYFeed.UseVisualStyleBackColor = true;
@@ -919,8 +919,8 @@
             // cBImportGCTTZDeepth
             // 
             resources.ApplyResources(this.cBImportGCTTZDeepth, "cBImportGCTTZDeepth");
-            this.cBImportGCTTZDeepth.Checked = global::GRBL_Plotter.Properties.Settings.Default.importGCTTZDeepth;
-            this.cBImportGCTTZDeepth.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "importGCTTZDeepth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cBImportGCTTZDeepth.Checked = global::RoboterGUI.Properties.Settings.Default.importGCTTZDeepth;
+            this.cBImportGCTTZDeepth.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "importGCTTZDeepth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cBImportGCTTZDeepth.Name = "cBImportGCTTZDeepth";
             this.toolTip1.SetToolTip(this.cBImportGCTTZDeepth, resources.GetString("cBImportGCTTZDeepth.ToolTip"));
             this.cBImportGCTTZDeepth.UseVisualStyleBackColor = true;
@@ -928,8 +928,8 @@
             // cBImportGCTTZFeed
             // 
             resources.ApplyResources(this.cBImportGCTTZFeed, "cBImportGCTTZFeed");
-            this.cBImportGCTTZFeed.Checked = global::GRBL_Plotter.Properties.Settings.Default.importGCTTZFeed;
-            this.cBImportGCTTZFeed.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "importGCTTZFeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cBImportGCTTZFeed.Checked = global::RoboterGUI.Properties.Settings.Default.importGCTTZFeed;
+            this.cBImportGCTTZFeed.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "importGCTTZFeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cBImportGCTTZFeed.Name = "cBImportGCTTZFeed";
             this.toolTip1.SetToolTip(this.cBImportGCTTZFeed, resources.GetString("cBImportGCTTZFeed.ToolTip"));
             this.cBImportGCTTZFeed.UseVisualStyleBackColor = true;
@@ -937,9 +937,9 @@
             // cBImportGCUseZ
             // 
             resources.ApplyResources(this.cBImportGCUseZ, "cBImportGCUseZ");
-            this.cBImportGCUseZ.Checked = global::GRBL_Plotter.Properties.Settings.Default.importGCZEnable;
+            this.cBImportGCUseZ.Checked = global::RoboterGUI.Properties.Settings.Default.importGCZEnable;
             this.cBImportGCUseZ.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cBImportGCUseZ.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "importGCZEnable", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cBImportGCUseZ.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "importGCZEnable", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cBImportGCUseZ.Name = "cBImportGCUseZ";
             this.toolTip1.SetToolTip(this.cBImportGCUseZ, resources.GetString("cBImportGCUseZ.ToolTip"));
             this.cBImportGCUseZ.UseVisualStyleBackColor = true;
@@ -953,7 +953,7 @@
             // nUDImportGCZUp
             // 
             resources.ApplyResources(this.nUDImportGCZUp, "nUDImportGCZUp");
-            this.nUDImportGCZUp.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "importGCZUp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDImportGCZUp.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "importGCZUp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDImportGCZUp.DecimalPlaces = 1;
             this.nUDImportGCZUp.Increment = new decimal(new int[] {
             1,
@@ -972,12 +972,12 @@
             -2147483648});
             this.nUDImportGCZUp.Name = "nUDImportGCZUp";
             this.toolTip1.SetToolTip(this.nUDImportGCZUp, resources.GetString("nUDImportGCZUp.ToolTip"));
-            this.nUDImportGCZUp.Value = global::GRBL_Plotter.Properties.Settings.Default.importGCZUp;
+            this.nUDImportGCZUp.Value = global::RoboterGUI.Properties.Settings.Default.importGCZUp;
             // 
             // nUDImportGCFeedZ
             // 
             resources.ApplyResources(this.nUDImportGCFeedZ, "nUDImportGCFeedZ");
-            this.nUDImportGCFeedZ.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "importGCZFeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDImportGCFeedZ.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "importGCZFeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDImportGCFeedZ.Increment = new decimal(new int[] {
             100,
             0,
@@ -995,7 +995,7 @@
             0});
             this.nUDImportGCFeedZ.Name = "nUDImportGCFeedZ";
             this.toolTip1.SetToolTip(this.nUDImportGCFeedZ, resources.GetString("nUDImportGCFeedZ.ToolTip"));
-            this.nUDImportGCFeedZ.Value = global::GRBL_Plotter.Properties.Settings.Default.importGCZFeed;
+            this.nUDImportGCFeedZ.Value = global::RoboterGUI.Properties.Settings.Default.importGCZFeed;
             // 
             // label18
             // 
@@ -1006,7 +1006,7 @@
             // nUDImportGCZDown
             // 
             resources.ApplyResources(this.nUDImportGCZDown, "nUDImportGCZDown");
-            this.nUDImportGCZDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "importGCZDown", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDImportGCZDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "importGCZDown", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDImportGCZDown.DecimalPlaces = 1;
             this.nUDImportGCZDown.Increment = new decimal(new int[] {
             1,
@@ -1025,7 +1025,7 @@
             -2147483648});
             this.nUDImportGCZDown.Name = "nUDImportGCZDown";
             this.toolTip1.SetToolTip(this.nUDImportGCZDown, resources.GetString("nUDImportGCZDown.ToolTip"));
-            this.nUDImportGCZDown.Value = global::GRBL_Plotter.Properties.Settings.Default.importGCZDown;
+            this.nUDImportGCZDown.Value = global::RoboterGUI.Properties.Settings.Default.importGCZDown;
             // 
             // label19
             // 
@@ -1053,8 +1053,8 @@
             // rBImportSVGTool
             // 
             resources.ApplyResources(this.rBImportSVGTool, "rBImportSVGTool");
-            this.rBImportSVGTool.Checked = global::GRBL_Plotter.Properties.Settings.Default.importSVGToolSort;
-            this.rBImportSVGTool.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "importSVGToolSort", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.rBImportSVGTool.Checked = global::RoboterGUI.Properties.Settings.Default.importSVGToolSort;
+            this.rBImportSVGTool.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "importSVGToolSort", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.rBImportSVGTool.Name = "rBImportSVGTool";
             this.rBImportSVGTool.TabStop = true;
             this.toolTip1.SetToolTip(this.rBImportSVGTool, resources.GetString("rBImportSVGTool.ToolTip"));

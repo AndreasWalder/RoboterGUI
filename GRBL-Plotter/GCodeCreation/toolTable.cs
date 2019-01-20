@@ -25,7 +25,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public struct toolProp
     {

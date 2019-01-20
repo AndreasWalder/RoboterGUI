@@ -26,7 +26,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     static class Vectorize
     {

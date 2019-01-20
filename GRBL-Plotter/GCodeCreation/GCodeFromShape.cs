@@ -24,7 +24,7 @@ using System.Globalization;
 using System.Threading;
 using System.Drawing;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class GCodeFromShape : Form
     {

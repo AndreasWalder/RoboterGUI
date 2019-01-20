@@ -38,7 +38,7 @@ using AForge;
 using AForge.Math.Geometry;
 using System.Collections.Generic;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class ControlCameraForm : Form
     {

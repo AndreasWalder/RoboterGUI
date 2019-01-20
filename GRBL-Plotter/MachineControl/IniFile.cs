@@ -30,7 +30,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Globalization;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     class IniFile
     {

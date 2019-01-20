@@ -31,7 +31,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class ControlHeightMapForm : Form
     {
@@ -784,7 +784,7 @@ namespace GRBL_Plotter
         // The StL file does not contain any scale information; the coordinates are in arbitrary units.
         public void SaveSTL(string path)
         {   StringBuilder data = new StringBuilder();
-            data.AppendLine("solid ASCII_STL_GRBL_Plotter");
+            data.AppendLine("solid ASCII_STL_RoboterGUI");
             double z0,z1,z2,z3;
             Vector2 p0, p1, p2,p3;
             for (int y = 0; y < (SizeY-1); y++)
@@ -817,7 +817,7 @@ namespace GRBL_Plotter
                     data.AppendLine(" endfacet");
                 }
             }
-            data.AppendLine("endsolid ASCII_STL_GRBL_Plotter");
+            data.AppendLine("endsolid ASCII_STL_RoboterGUI");
             File.WriteAllText(path, data.ToString().Replace(',', '.'));
         }
 

@@ -31,7 +31,7 @@ using System.Xml;
 using System.IO;
 using System.Text;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class ControlSetupForm : Form
     {

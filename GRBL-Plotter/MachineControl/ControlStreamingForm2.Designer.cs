@@ -1,4 +1,4 @@
-﻿namespace GRBL_Plotter
+﻿namespace RoboterGUI
 {
     partial class ControlStreamingForm2
     {

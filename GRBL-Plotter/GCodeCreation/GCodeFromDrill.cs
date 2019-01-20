@@ -21,7 +21,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     class GCodeFromDrill
     {

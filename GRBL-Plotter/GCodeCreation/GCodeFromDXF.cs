@@ -34,7 +34,7 @@ using System.IO;
 using DXFLib;
 using System.Globalization;
 
-namespace GRBL_Plotter //DXFImporter
+namespace RoboterGUI //DXFImporter
 {
     class GCodeFromDXF
     {

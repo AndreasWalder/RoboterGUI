@@ -11,7 +11,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using FastColoredTextBoxNS;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class MainForm
     {

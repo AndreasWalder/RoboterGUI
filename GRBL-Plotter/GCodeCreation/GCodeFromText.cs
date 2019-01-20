@@ -28,7 +28,7 @@ using System.Drawing;
 
 // http://imajeenyus.com/computer/20150110_single_line_fonts/
 // Hershey code from: http://www.evilmadscientist.com/2011/hershey-text-an-inkscape-extension-for-engraving-fonts/
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class GCodeFromText : Form
     {

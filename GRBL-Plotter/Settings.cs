@@ -1,4 +1,4 @@
-﻿namespace GRBL_Plotter.Properties {
+﻿namespace RoboterGUI.Properties {
     
     
     // Diese Klasse ermöglicht die Behandlung bestimmter Ereignisse der Einstellungsklasse:

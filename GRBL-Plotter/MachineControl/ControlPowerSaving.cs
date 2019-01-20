@@ -26,7 +26,7 @@ using System;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public static class ControlPowerSaving
     {

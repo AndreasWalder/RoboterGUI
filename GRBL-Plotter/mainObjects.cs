@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public struct xyzPoint
     {

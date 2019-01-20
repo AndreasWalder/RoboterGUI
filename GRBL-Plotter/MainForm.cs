@@ -39,7 +39,7 @@ using System.Globalization;
 using System.Threading;
 using System.Text;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
 
     public partial class MainForm : Form

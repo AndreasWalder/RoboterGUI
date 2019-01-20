@@ -29,7 +29,7 @@ using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Forms;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public static class gcode
     {   private static string formatCode = "00";

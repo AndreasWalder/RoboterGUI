@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     class checkUpdate
     {

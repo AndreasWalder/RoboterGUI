@@ -32,7 +32,7 @@ using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public class GCodeVisuAndTransform
     {   public enum translate { None, ScaleX, ScaleY, Offset1, Offset2, Offset3, Offset4, Offset5, Offset6, Offset7, Offset8, Offset9, MirrorX, MirrorY };

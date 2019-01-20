@@ -25,7 +25,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public static class grbl
     {       // need to have global access to this data?

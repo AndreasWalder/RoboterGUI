@@ -21,7 +21,7 @@ using System;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class ControlStreamingForm2 : Form
     {

@@ -46,7 +46,7 @@ using System.IO;
 using System.Globalization;
 using System.Threading;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class ControlSerialForm : Form       // Form can be loaded twice!!! COM1, COM2
     {

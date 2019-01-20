@@ -20,7 +20,7 @@ using System;
 using System.Diagnostics;
 using System.Windows.Forms;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     public partial class AboutForm : Form
     {

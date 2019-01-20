@@ -1,4 +1,4 @@
-﻿namespace GRBL_Plotter
+﻿namespace RoboterGUI
 {
     partial class GCodeFromShape
     {
@@ -123,8 +123,8 @@
             // cBToolSet
             // 
             resources.ApplyResources(this.cBToolSet, "cBToolSet");
-            this.cBToolSet.Checked = global::GRBL_Plotter.Properties.Settings.Default.importGCToolUseRouter;
-            this.cBToolSet.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::GRBL_Plotter.Properties.Settings.Default, "importGCToolUseRouter", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.cBToolSet.Checked = global::RoboterGUI.Properties.Settings.Default.importGCToolUseRouter;
+            this.cBToolSet.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::RoboterGUI.Properties.Settings.Default, "importGCToolUseRouter", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.cBToolSet.Name = "cBToolSet";
             this.cBToolSet.UseVisualStyleBackColor = true;
             this.cBToolSet.CheckedChanged += new System.EventHandler(this.cBToolSet_CheckedChanged);

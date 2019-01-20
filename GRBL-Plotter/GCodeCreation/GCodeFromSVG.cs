@@ -44,7 +44,7 @@ using System.Xml.Linq;
 using System.IO;
 using System.Globalization;
 
-namespace GRBL_Plotter
+namespace RoboterGUI
 {
     class GCodeFromSVG
     {

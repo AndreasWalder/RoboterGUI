@@ -1,4 +1,4 @@
-﻿namespace GRBL_Plotter
+﻿namespace RoboterGUI
 {
     partial class ControlHeightMapForm
     {
@@ -203,7 +203,7 @@
             // nUDGridY
             // 
             resources.ApplyResources(this.nUDGridY, "nUDGridY");
-            this.nUDGridY.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "heightMapGridY", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDGridY.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "heightMapGridY", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDGridY.DecimalPlaces = 1;
             this.nUDGridY.Maximum = new decimal(new int[] {
             1000,
@@ -217,12 +217,12 @@
             65536});
             this.nUDGridY.Name = "nUDGridY";
             this.toolTip1.SetToolTip(this.nUDGridY, resources.GetString("nUDGridY.ToolTip"));
-            this.nUDGridY.Value = global::GRBL_Plotter.Properties.Settings.Default.heightMapGridY;
+            this.nUDGridY.Value = global::RoboterGUI.Properties.Settings.Default.heightMapGridY;
             // 
             // nUDGridX
             // 
             resources.ApplyResources(this.nUDGridX, "nUDGridX");
-            this.nUDGridX.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "heightMapGridX", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDGridX.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "heightMapGridX", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDGridX.DecimalPlaces = 1;
             this.nUDGridX.Maximum = new decimal(new int[] {
             1000,
@@ -236,7 +236,7 @@
             65536});
             this.nUDGridX.Name = "nUDGridX";
             this.toolTip1.SetToolTip(this.nUDGridX, resources.GetString("nUDGridX.ToolTip"));
-            this.nUDGridX.Value = global::GRBL_Plotter.Properties.Settings.Default.heightMapGridX;
+            this.nUDGridX.Value = global::RoboterGUI.Properties.Settings.Default.heightMapGridX;
             // 
             // label5
             // 
@@ -343,7 +343,7 @@
             // nUDX1
             // 
             resources.ApplyResources(this.nUDX1, "nUDX1");
-            this.nUDX1.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "heightMapX1", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDX1.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "heightMapX1", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDX1.DecimalPlaces = 2;
             this.nUDX1.Increment = new decimal(new int[] {
             10,
@@ -362,13 +362,13 @@
             -2147483648});
             this.nUDX1.Name = "nUDX1";
             this.toolTip1.SetToolTip(this.nUDX1, resources.GetString("nUDX1.ToolTip"));
-            this.nUDX1.Value = global::GRBL_Plotter.Properties.Settings.Default.heightMapX1;
+            this.nUDX1.Value = global::RoboterGUI.Properties.Settings.Default.heightMapX1;
             this.nUDX1.ValueChanged += new System.EventHandler(this.nUDX1_ValueChanged);
             // 
             // nUDY1
             // 
             resources.ApplyResources(this.nUDY1, "nUDY1");
-            this.nUDY1.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "heightMapY1", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDY1.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "heightMapY1", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDY1.DecimalPlaces = 2;
             this.nUDY1.Increment = new decimal(new int[] {
             10,
@@ -387,7 +387,7 @@
             -2147483648});
             this.nUDY1.Name = "nUDY1";
             this.toolTip1.SetToolTip(this.nUDY1, resources.GetString("nUDY1.ToolTip"));
-            this.nUDY1.Value = global::GRBL_Plotter.Properties.Settings.Default.heightMapY1;
+            this.nUDY1.Value = global::RoboterGUI.Properties.Settings.Default.heightMapY1;
             this.nUDY1.ValueChanged += new System.EventHandler(this.nUDX1_ValueChanged);
             // 
             // groupBox2
@@ -415,7 +415,7 @@
             // nUDProbeSpeed
             // 
             resources.ApplyResources(this.nUDProbeSpeed, "nUDProbeSpeed");
-            this.nUDProbeSpeed.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "heightMapProbeSpeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDProbeSpeed.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "heightMapProbeSpeed", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDProbeSpeed.Increment = new decimal(new int[] {
             50,
             0,
@@ -428,7 +428,7 @@
             0});
             this.nUDProbeSpeed.Name = "nUDProbeSpeed";
             this.toolTip1.SetToolTip(this.nUDProbeSpeed, resources.GetString("nUDProbeSpeed.ToolTip"));
-            this.nUDProbeSpeed.Value = global::GRBL_Plotter.Properties.Settings.Default.heightMapProbeSpeed;
+            this.nUDProbeSpeed.Value = global::RoboterGUI.Properties.Settings.Default.heightMapProbeSpeed;
             // 
             // label8
             // 
@@ -439,7 +439,7 @@
             // nUDProbeUp
             // 
             resources.ApplyResources(this.nUDProbeUp, "nUDProbeUp");
-            this.nUDProbeUp.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "heightMapProbeHeight", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDProbeUp.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "heightMapProbeHeight", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDProbeUp.DecimalPlaces = 2;
             this.nUDProbeUp.Maximum = new decimal(new int[] {
             1000000,
@@ -448,7 +448,7 @@
             0});
             this.nUDProbeUp.Name = "nUDProbeUp";
             this.toolTip1.SetToolTip(this.nUDProbeUp, resources.GetString("nUDProbeUp.ToolTip"));
-            this.nUDProbeUp.Value = global::GRBL_Plotter.Properties.Settings.Default.heightMapProbeHeight;
+            this.nUDProbeUp.Value = global::RoboterGUI.Properties.Settings.Default.heightMapProbeHeight;
             // 
             // label7
             // 
@@ -459,7 +459,7 @@
             // nUDProbeDown
             // 
             resources.ApplyResources(this.nUDProbeDown, "nUDProbeDown");
-            this.nUDProbeDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::GRBL_Plotter.Properties.Settings.Default, "heightMapProbeDepth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.nUDProbeDown.DataBindings.Add(new System.Windows.Forms.Binding("Value", global::RoboterGUI.Properties.Settings.Default, "heightMapProbeDepth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
             this.nUDProbeDown.DecimalPlaces = 2;
             this.nUDProbeDown.Maximum = new decimal(new int[] {
             0,
@@ -473,7 +473,7 @@
             -2147483648});
             this.nUDProbeDown.Name = "nUDProbeDown";
             this.toolTip1.SetToolTip(this.nUDProbeDown, resources.GetString("nUDProbeDown.ToolTip"));
-            this.nUDProbeDown.Value = global::GRBL_Plotter.Properties.Settings.Default.heightMapProbeDepth;
+            this.nUDProbeDown.Value = global::RoboterGUI.Properties.Settings.Default.heightMapProbeDepth;
             // 
             // label6
             // 
