@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRBL-Plotter", "GRBL-Plotter\GRBL-Plotter.csproj", "{8079D7D8-2B91-4A22-A13E-7E5AC5A9E5FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboterGUI", "GRBL-Plotter\RoboterGUI.csproj", "{8079D7D8-2B91-4A22-A13E-7E5AC5A9E5FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA893DDD-2826-4307-89AF-795A7C5CD7C9}
 	EndGlobalSection
 EndGlobal
