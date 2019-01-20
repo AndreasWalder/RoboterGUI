@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboterGUI", "GRBL-Plotter\RoboterGUI.csproj", "{8079D7D8-2B91-4A22-A13E-7E5AC5A9E5FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboterGUI", "RoboterGUI\RoboterGUI.csproj", "{8079D7D8-2B91-4A22-A13E-7E5AC5A9E5FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
